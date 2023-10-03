@@ -1,0 +1,22 @@
+.list-Learn{
+    width: 50%;
+}
+
+.list-Learn li{
+    list-style-image: url(../icon-list/Component\ 28\ –\ 3.png);
+    list-style-position: unset;
+    margin-top: 1rem;
+    margin-left: 50px;
+}
+
+.list-Learn li span{
+    color: #212529;
+    font-weight: bolder;
+}
+
+
+.list-Learn li:hover{
+    background-color: #ffee58;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}

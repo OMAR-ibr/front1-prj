@@ -1,0 +1,163 @@
+ /* header start  */
+
+ header .prand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+
+header .prand .logo {
+  align-items: center;
+  gap: 1rem;
+  font-size: 20px;
+}
+
+
+.nav-right .fa-bars {
+  visibility: hidden;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #002147;
+}
+
+header .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right nav a {
+  text-decoration: none;
+  color: #002147;
+  font-weight: 800;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+}
+
+.nav-right .active-header {
+  background-color: #FDC800;
+  padding: 0.75rem 2rem;
+  margin: 15px 10px 10px 40px;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #002147;
+  font-weight: bolder;
+}
+
+.nav-right .search {
+  padding: 0.65rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+
+
+/* media start */
+@media (max-width:768px) {
+  .logo h3 {
+    display: none;
+  }
+
+  .prand .fa-bars {
+    visibility: visible;
+  }
+  header{
+   background-color: rgb(218, 170, 27);
+  }
+}
+
+@media (max-width:992px) {
+  nav {
+    display: none;
+  }
+
+  .prand .fa-bars {
+    visibility: visible;
+  }
+
+}
+
+
+
+
+/* media end  */
+
+
+/* اظهار قائمة القوائم */
+.fa-bars:hover+nav {
+  display: grid;
+  position: fixed;
+  width: 100%;
+  min-height: 20vh;
+  top: 100px;
+  right: 0;
+  padding: 1rem;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #FDC800;
+}
+
+
+nav>a:not(.active-header):hover {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: solid;
+  transform: scale(1, 1);
+  color: #FDC800;
+  transition: 0.5s;
+
+}
+
+.active-header:hover {
+  background-color: #002147;
+  color: #FDC800;
+  transition: 1s;
+}
+
+.nav-right .search:hover {
+  background-color: #FDC800;
+  color: #f2f4f7;
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* header end  */

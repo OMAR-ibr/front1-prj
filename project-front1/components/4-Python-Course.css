@@ -1,0 +1,124 @@
+.Python-Course .container {
+    width: 70%;
+    background-color: #002147;
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.imge-container {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.imge-container h3 {
+    color: white;
+    margin-top: 40px;
+    font-size: rem;
+    font-weight: bold;
+    width: 300px;
+}
+
+.imge-container h3 span {
+    color: #FDC800;
+}
+.time-number{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+
+.time {
+    text-align: center;
+    padding-top: 50px;
+    width: 500px;
+}
+
+.time-number h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.time-number p {
+    font-size: 30px;
+    color: white;
+
+} 
+
+
+.time-data {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 4rem;
+}
+
+.time-data p {
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+/* responsev */
+
+@media (max-width:576px) {
+
+    .Python-Course .container {
+        width: 100%;
+        height: 20vh;
+        margin-top: 50px;
+    }
+
+    .imge-container {
+        display: none;
+    }
+
+     .time-data {
+        gap: 4rem;
+    } 
+}
+
+@media (min-width:576px) and (max-width:768px) {
+
+    .Python-Course .container {
+        width: 100%;
+        height: 20vh;
+        margin-top: 50px;
+
+    }
+
+    .imge-container {
+        display: none;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .Python-Course .container {
+        width: 80%;
+        height: 20vh;
+        margin-top: 50px;
+
+    }
+
+    .imge-container {
+        display: none;
+    }
+
+    .time {
+        margin-left: 80px;
+    }
+
+}
+
+

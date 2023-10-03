@@ -1,0 +1,162 @@
+.search {
+    padding: 4rem 0;
+}
+
+.search .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.text-search {
+    width: 650px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.text-search h5 {
+    color: #FDC800;
+    font-weight: bold;
+}
+
+.text-search h2 {
+    padding: 20px 0;
+    font-size: 50px;
+    word-break: break-all;
+    color: #002147;
+}
+
+.input {
+    position: relative;
+}
+
+.input input {
+    width: 650px;
+    min-height: 7vh;
+    padding-left: 30px;
+}
+
+.input .active {
+    width: auto;
+    min-height: 5vh;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.4rem;
+    text-decoration: none;
+    color: #002147;
+    background-color: #FDC800;
+    padding: 0 20px;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.input .fa-envelope {
+    position: absolute;
+    left: 10px;
+    top: 1rem;
+}
+
+
+/* media start */
+
+@media (max-width:576px) {
+    .img-search {
+        width: 100%;
+        height: 10vh;
+    }
+    .text-search h5 ,h2 {
+       display: none;
+    }
+    
+    .input input {
+        width: 100%;
+        min-height: 7vh;
+        margin-top: 100px;
+        padding-left: 30px;
+    }
+
+    .input .fa-envelope {
+        position: absolute;
+        left: 10px;
+      top:7.2rem; 
+    }
+    
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .img-search {
+        width: 100%;
+        height: 10vh;
+    }
+    .text-search h5 ,h2 {
+       display: none;
+    }
+    
+    .input input {
+        width: 100%;
+        min-height: 7vh;
+        margin-top: 100px;
+        padding-left: 30px;
+    }
+
+    .input .fa-envelope {
+        position: absolute;
+        left: 10px;
+      top:7.2rem; 
+    }
+    }
+
+
+
+    
+@media (min-width:768px) and (max-width:992px) {
+    .img-search {
+        width: 100%;
+        height: 10vh;
+    }
+    .text-search h5 ,h2 {
+       display: none;
+    }
+    
+    .input input {
+        width: 100%;
+        min-height: 7vh;
+        margin-top: 100px;
+        padding-left: 30px;
+    }
+
+    .input .fa-envelope {
+        position: absolute;
+        left: 10px;
+      top:7.2rem; 
+    }}
+
+     
+@media (min-width:992px) and  (max-width:1200px){
+
+    .img-search {
+        width: 100%;
+        height: 10vh;
+    }
+    .text-search h5 ,h2 {
+       display: none;
+    }
+    
+    .input input {
+        width: 75%;
+        min-height: 7vh;
+        margin-top: 100px;
+        margin-left: 170px;
+        padding-left: 30px;
+    }
+
+    .input .fa-envelope {
+        position: absolute;
+        left: 180px;
+      top:7.4rem; 
+    }
+
+
+}

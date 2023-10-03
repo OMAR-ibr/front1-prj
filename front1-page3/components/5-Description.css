@@ -1,0 +1,13 @@
+.Description{
+    padding: 6rem 0;
+    margin-top: 150px;
+}
+
+.Description .head{
+    color: #002147;
+}
+
+
+.Description .paragraphs{
+    width: 60%;
+}

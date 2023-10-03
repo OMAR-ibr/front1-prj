@@ -1,0 +1,55 @@
+/* reset program  start*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+.bg-color-main {
+    background-color: #F0F4F9;
+    min-height: 600px;
+}
+
+img,i {
+    user-select: none;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+/* reset program  end*/
+/* تعديل على التحديد  */
+::selection {
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 186, 186);
+}
+
+
+  /* لتعديل على السكول  */
+  
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #002147;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background-color: #FDC800;
+  
+  }
+  
+ 

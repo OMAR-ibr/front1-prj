@@ -1,0 +1,91 @@
+.head-main h5 {
+    margin: 0.5rem 0;
+    color: #FDC800;
+}
+
+.head-main h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #002147;
+    margin-bottom: 30px;
+}
+
+.options {
+    display: flex;
+    gap: 20px;
+}
+
+.options label {
+    color: #002147;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.options select {
+    width: 300px;
+    height: 50px;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    color: #002147;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+@media (max-width:576px) {
+    .options {
+        display: block;
+        margin: 70px;
+    }
+
+    .Top-Courses {
+        margin-top: 150px;
+
+    }
+
+   
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .options {
+        display: block;
+        margin: 90px;
+    }
+
+    .Top-Courses {
+        margin-top: 150px;
+
+    }
+
+
+
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .options {
+        display: block;
+        margin: 50px;
+        padding: 20px;
+    }
+
+    .Top-Courses {
+        margin-top: 150px;
+
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+
+    .options {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}

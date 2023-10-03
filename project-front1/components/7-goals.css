@@ -1,0 +1,88 @@
+.goals {
+    height: 400px;
+    margin: 50px 0;
+    background-color: #F0F4F9;
+    background-image: url(../goals/bacground-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.boxes_goal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+}
+
+.box {
+    text-align: center;
+    padding-top: 70px;
+    border: none;
+}
+
+.box .num {
+    font-size: 50px;
+    color: #002147;
+    font-weight: bold;
+}
+
+.box .active {
+    padding: 45px 0;
+
+}
+
+.box .colo {
+    color: #00B2B2;
+    font-weight: bold;
+}
+
+
+
+
+
+@media (max-width:576px) {
+
+    .boxes_goal {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .goals {
+        min-height: 200vh;
+
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+
+    .boxes_goal {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .goals {
+        min-height: 100vh;
+
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+
+    .boxes_goal {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .goals {
+        min-height: 100vh;
+
+    }
+}
+
+@media (min-width:992px) {
+
+    .boxes_goal {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+}

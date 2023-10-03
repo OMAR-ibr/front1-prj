@@ -1,0 +1,121 @@
+.Successful-Student {
+    padding: 5rem 0;
+    margin: 50px 0;
+    background-color: #F0F4F9;
+
+}
+
+.Successful-Student .container {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Successful-Student-img {
+    position: relative;
+    border-radius: 0.7rem;
+}
+
+.Successful-img-position img {
+    position: absolute;
+    top: -20px; 
+    left:-20px;
+}
+
+.Successful-Student-img .position-box{
+    background-color: #faf9f9;
+    width:400px;
+    min-height: 70px;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom:-30px;
+    left:60px;
+    border-radius: 0.7rem;
+}
+
+.Successful-Student-text{
+    width: 600px;
+    min-height: 400px;
+}
+
+.Successful-Student-text h1{
+    font-size: 50px;
+    width: 500px;
+    color: #002147;
+    padding-bottom: 20px;
+}
+
+.Successful-Student-text h1 span{ 
+    color: #FDC800;
+}
+
+.Successful-Student-text p{
+    padding: 20px 0;
+     font-weight:200; 
+}
+
+.Successful-Student .Successful-Student-text h3{
+     padding: 20px 0;
+     color: #002147;
+     font-size: 1rem;
+     font-weight: bold;
+}
+
+.Successful-Student .Successful-Student-text-box{
+    width: 400px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 7px;
+    position: relative;
+    margin-left: 60px;
+    padding: 15px 50px;
+}
+
+.Successful-Student .Successful-Student-text-box h4{
+    font-weight: bold;
+    color: #002147;
+}
+
+.Successful-Student .Successful-Student-text-box p{
+    font-weight: 100; 
+    font-size: 14px; 
+    color: #757575; 
+}
+
+
+.Successful-Student .Successful-Student-text-box img{
+    position: absolute;
+    left: -60px;
+    bottom:5px;
+}
+
+
+
+/* البكس الاصفر  */
+
+
+ .Successful-img-position::before{
+    content: '';
+    display: flex;
+    width:100px;
+    min-height: 110px;
+    position: absolute;
+    top: -25px; 
+    left:-30px;
+    background-color: #FDC800;
+    border-radius: 7px;
+} 
+
+/* 
+@media (max-width:768px) {
+.Successful-Student {
+    display: inline;
+    }
+} */
+
+
+
+
+
